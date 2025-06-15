@@ -25,11 +25,11 @@ Smart Marketplace UI est une application web développée avec Next.js qui perme
 
 ## 🤖 Providers IA Disponibles
 
-| Provider | Modèle | Type | Spécialités | API | Points forts |
-|----------|---------|------|-------------|-----|--------------|
-| <img src="./public/icons/gimini.svg" width="24" height="24" alt="Gemini"/> **Google Gemini** *(Défaut)* | `gemini-1.5-flash` | Multimodal | • Génération rapide<br>• Texte structuré<br>• Support français | Google Generative Language | • Équilibre vitesse/qualité<br>• Contextes professionnels<br>• Fiabilité éprouvée |
-| <img src="./public/icons/deepseek.svg" width="24" height="24" alt="DeepSeek"/> **DeepSeek R1** | `deepseek/deepseek-r1:free` | Raisonnement | • Chain-of-Thought<br>• Analyse logique<br>• Missions techniques | OpenRouter (proxy) | • Réflexion étape par étape<br>• Structuration avancée<br>• Détails techniques |
-| <img src="./public/icons/mistral.svg" width="24" height="24" alt="Mistral"/> **Mistral AI** | `mistral-small-2503` | Européen | • Contexte français<br>• Missions locales<br>• Conformité RGPD | Mistral AI API | • Souveraineté numérique<br>• Compréhension culturelle<br>• Standards européens |
+| Provider | Modèle | Spécialités | API |
+|----------|---------|-------------|-----|
+| <img src="./public/icons/gimini.svg" width="24" height="24" alt="Gemini"/> **Google Gemini** *(Défaut)* | `gemini-1.5-flash` | • Génération rapide<br>• Texte structuré<br>• Support français | Google Generative Language |
+| <img src="./public/icons/deepseek.svg" width="24" height="24" alt="DeepSeek"/> **DeepSeek R1** | `deepseek/deepseek-r1:free` | • Chain-of-Thought<br>• Analyse logique<br>• Missions techniques | OpenRouter (proxy) |
+| <img src="./public/icons/mistral.svg" width="24" height="24" alt="Mistral"/> **Mistral AI** | `mistral-small-2503` | • Contexte français<br>• Missions locales<br>• Conformité RGPD | Mistral AI API |
 
 
 ## ✨ Fonctionnalités
