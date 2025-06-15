@@ -8,8 +8,6 @@ Smart Marketplace UI est une application web développée avec Next.js qui perme
 
 ## ✨ Fonctionnalités
 
-## ✨ Fonctionnalités
-
 ### 🎯 **Génération Intelligente de Missions**
 - **Transformation automatique** : Conversion d'une description simple en mission complète et détaillée
 - **Extraction d'informations** : Analyse automatique des mots-clés, technologies, localisation et budget
@@ -113,10 +111,11 @@ L'application communique avec un backend ASP.NET Core via l'API REST :
 > **Note** : Cette section sera mise à jour avec des captures d'écran de l'interface
 
 #### Sélection du Provider IA et Formulaire de génération
-*Screenshot à venir - Interface de choix du modèle d'IA (Gemini, DeepSeek R1, Mistral)*
+<img width="1509" alt="Screenshot 2025-06-15 at 04 42 15" src="https://github.com/user-attachments/assets/fb9b396b-23cf-4640-8549-7cb07ae1e343" />
 
 #### Résultats générés
-*Screenshot à venir - Affichage organisé des détails de la mission*
+<img width="1510" alt="Screenshot 2025-06-15 at 04 42 34" src="https://github.com/user-attachments/assets/f5d46144-f2ab-47b7-9465-dd6283427e0a" />
+<img width="1512" alt="Screenshot 2025-06-15 at 04 42 57" src="https://github.com/user-attachments/assets/5139d640-5472-4445-ad17-63301f7684c1" />
 
 
 ### Caractéristiques de l'UI
