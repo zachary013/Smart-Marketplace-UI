@@ -1,12 +1,37 @@
 # Smart Marketplace UI
 
----
-
 ## 📋 Description
 
 Smart Marketplace UI est une application web développée avec Next.js qui permet de générer automatiquement des descriptions détaillées de missions freelance à partir d'une simple description textuelle. L'application s'appuie sur plusieurs modèles d'IA (Gemini, DeepSeek R1, Mistral) et s'intègre parfaitement avec un backend ASP.NET Core.
 
----
+## 🎨 Interface Web
+
+### Captures d'écran
+
+> **Note** : Cette section sera mise à jour avec des captures d'écran de l'interface
+
+#### Sélection du Provider IA et Formulaire de génération
+<img width="1509" alt="Screenshot 2025-06-15 at 04 42 15" src="https://github.com/user-attachments/assets/fb9b396b-23cf-4640-8549-7cb07ae1e343" />
+
+#### Résultats générés
+<img width="1510" alt="Screenshot 2025-06-15 at 04 42 34" src="https://github.com/user-attachments/assets/f5d46144-f2ab-47b7-9465-dd6283427e0a" />
+<img width="1512" alt="Screenshot 2025-06-15 at 04 42 57" src="https://github.com/user-attachments/assets/5139d640-5472-4445-ad17-63301f7684c1" />
+
+## 🚀 Technologies Utilisées
+
+- **Frontend** : Next.js 14, React 18, TypeScript
+- **Styling** : Tailwind CSS, Shadcn/UI
+- **Backend** : ASP.NET Core (API REST)
+- **IA Providers** : Google Gemini, DeepSeek R1, Mistral AI
+
+## 🤖 Providers IA Disponibles
+
+| Provider | Modèle | Type | Spécialités | API | Points forts |
+|----------|---------|------|-------------|-----|--------------|
+| <img src="./public/icons/gimini.svg" width="24" height="24" alt="Gemini"/> **Google Gemini** *(Défaut)* | `gemini-1.5-flash` | Multimodal | • Génération rapide<br>• Texte structuré<br>• Support français | Google Generative Language | • Équilibre vitesse/qualité<br>• Contextes professionnels<br>• Fiabilité éprouvée |
+| <img src="./public/icons/deepseek.svg" width="24" height="24" alt="DeepSeek"/> **DeepSeek R1** | `deepseek/deepseek-r1:free` | Raisonnement | • Chain-of-Thought<br>• Analyse logique<br>• Missions techniques | OpenRouter (proxy) | • Réflexion étape par étape<br>• Structuration avancée<br>• Détails techniques |
+| <img src="./public/icons/mistral.svg" width="24" height="24" alt="Mistral"/> **Mistral AI** | `mistral-small-2503` | Européen | • Contexte français<br>• Missions locales<br>• Conformité RGPD | Mistral AI API | • Souveraineté numérique<br>• Compréhension culturelle<br>• Standards européens |
+
 
 ## ✨ Fonctionnalités
 
@@ -25,14 +50,6 @@ Smart Marketplace UI est une application web développée avec Next.js qui perme
 - **Catégorisation** : Classification automatique par domaine (Backend, Frontend, DevOps, etc.)
 - **Validation des formats** : Vérification et normalisation des données extraites
 
-## 🚀 Technologies Utilisées
-
-- **Frontend** : Next.js 14, React 18, TypeScript
-- **Styling** : Tailwind CSS, Shadcn/UI
-- **Backend** : ASP.NET Core (API REST)
-- **IA Providers** : Google Gemini, DeepSeek R1, Mistral AI
-
----
 
 ## 📦 Installation
 
@@ -71,7 +88,6 @@ Smart Marketplace UI est une application web développée avec Next.js qui perme
 5. **Accéder à l'application**
    - Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur
 
----
 
 ## 🔧 Configuration API
 
@@ -81,33 +97,7 @@ L'application communique avec un backend ASP.NET Core via l'API REST :
 - **Endpoint principal** : `/mission/generate`
 - **Format de réponse** : ApiResponse<T> standardisé
 
----
 
-## 🎨 Interface Web
-
-### Captures d'écran
-
-> **Note** : Cette section sera mise à jour avec des captures d'écran de l'interface
-
-#### Sélection du Provider IA et Formulaire de génération
-<img width="1509" alt="Screenshot 2025-06-15 at 04 42 15" src="https://github.com/user-attachments/assets/fb9b396b-23cf-4640-8549-7cb07ae1e343" />
-
-#### Résultats générés
-<img width="1510" alt="Screenshot 2025-06-15 at 04 42 34" src="https://github.com/user-attachments/assets/f5d46144-f2ab-47b7-9465-dd6283427e0a" />
-<img width="1512" alt="Screenshot 2025-06-15 at 04 42 57" src="https://github.com/user-attachments/assets/5139d640-5472-4445-ad17-63301f7684c1" />
-
-
----
-
-## 🤖 Providers IA Disponibles
-
-| Provider | Modèle | Type | Spécialités | API | Points forts |
-|----------|---------|------|-------------|-----|--------------|
-| <img src="./public/icons/gimini.svg" width="24" height="24" alt="Gemini"/> **Google Gemini** *(Défaut)* | `gemini-1.5-flash` | Multimodal | • Génération rapide<br>• Texte structuré<br>• Support français | Google Generative Language | • Équilibre vitesse/qualité<br>• Contextes professionnels<br>• Fiabilité éprouvée |
-| <img src="./public/icons/deepseek.svg" width="24" height="24" alt="DeepSeek"/> **DeepSeek R1** | `deepseek/deepseek-r1:free` | Raisonnement | • Chain-of-Thought<br>• Analyse logique<br>• Missions techniques | OpenRouter (proxy) | • Réflexion étape par étape<br>• Structuration avancée<br>• Détails techniques |
-| <img src="./public/icons/mistral.svg" width="24" height="24" alt="Mistral"/> **Mistral AI** | `mistral-small-2503` | Européen | • Contexte français<br>• Missions locales<br>• Conformité RGPD | Mistral AI API | • Souveraineté numérique<br>• Compréhension culturelle<br>• Standards européens |
-
----
 
 ## 👥 Team
 
