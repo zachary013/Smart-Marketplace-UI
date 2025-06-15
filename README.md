@@ -55,7 +55,6 @@ Smart Marketplace UI est une application web développée avec Next.js qui perme
 ### Prérequis
 
 - Node.js 18+
-- npm ou yarn
 - Backend ASP.NET Core (Smart Marketplace API)
 
 ### Étapes d'installation
@@ -69,8 +68,6 @@ Smart Marketplace UI est une application web développée avec Next.js qui perme
 2. **Installer les dépendances**
    ```bash
    npm install
-   # ou
-   yarn install
    ```
 
 3. **Configuration**
@@ -80,8 +77,6 @@ Smart Marketplace UI est une application web développée avec Next.js qui perme
 4. **Lancer en mode développement**
    ```bash
    npm run dev
-   # ou
-   yarn dev
    ```
 
 5. **Accéder à l'application**
