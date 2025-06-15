@@ -61,7 +61,7 @@ export default function MissionResult({ mission, isLoading, onReset }: MissionRe
 
         {/* Informations de la mission organisées par sections */}
         <div className="space-y-10 mb-8">
-          
+
           {/* Section 1: Localisation et Mode de travail */}
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-foreground border-b border-border pb-2">
