@@ -8,7 +8,6 @@ Smart Marketplace UI est une application web développée avec Next.js qui perme
 
 ### Captures d'écran
 
-> **Note** : Cette section sera mise à jour avec des captures d'écran de l'interface
 
 #### Sélection du Provider IA et Formulaire de génération
 <img width="1509" alt="Screenshot 2025-06-15 at 04 42 15" src="https://github.com/user-attachments/assets/fb9b396b-23cf-4640-8549-7cb07ae1e343" />
