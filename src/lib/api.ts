@@ -60,11 +60,12 @@ class MissionApiClient {
   // Générer une mission
   async generateMission(formData: MissionFormData): Promise<Mission> {
     const requestData: GenerateMissionRequest = {
-      simpleInput: formData.description
+      simpleInput: formData.description,
+      preferredProvider: formData.preferredProvider
     };
 
     const response = await this.request<ApiResponse<Mission>>(
-      '/api/Mission/generate',
+      '/api/mission/generate', // MODIFIÉ: Nouveau endpoint selon la doc
       {
         method: 'POST',
         body: JSON.stringify(requestData),
