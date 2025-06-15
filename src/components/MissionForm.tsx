@@ -130,7 +130,7 @@ export default function MissionForm({ onMissionGenerated, onLoadingChange, onErr
 Exemple : Je cherche un développeur React senior pour créer une application"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
-            className="min-h-[120px] text-base resize-none bg-muted/50 border-muted-foreground/20 focus:border-primary focus:ring-primary"
+            className="min-h-[120px] text-2xl resize-none bg-muted/50 border-muted-foreground/20 focus:border-primary focus:ring-primary placeholder:text-muted-foreground/60"
             required
           />
         </div>
