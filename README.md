@@ -128,33 +128,11 @@ L'application communique avec un backend ASP.NET Core via l'API REST :
 
 ## 🤖 Providers IA Disponibles
 
-### Google Gemini (Par défaut)
-- **Modèle** : `gemini-1.5-flash`
-- **Caractéristiques** :
-  - Modèle multimodal rapide et efficace de Google
-  - Excellent équilibre entre vitesse et qualité
-  - Optimisé pour les tâches de génération de texte structuré
-  - Support natif du français et des contextes professionnels
-- **API** : Google Generative Language API
-
-### DeepSeek R1
-- **Modèle** : `deepseek/deepseek-r1:free`
-- **Caractéristiques** :
-  - Modèle de raisonnement avancé avec capacités Chain-of-Thought
-  - Excellence dans l'analyse logique et la structuration d'informations
-  - Spécialisé dans les tâches nécessitant une réflexion étape par étape
-  - Très performant pour les descriptions détaillées de missions techniques
-- **API** : OpenRouter (proxy)
-
-### Mistral AI
-- **Modèle** : `mistral-small-2503`
-- **Caractéristiques** :
-  - Modèle français développé par Mistral AI
-  - Compréhension nuancée du contexte professionnel français
-  - Optimisé pour les entreprises européennes
-  - Excellent pour les descriptions de postes et missions locales
-  - Respect des standards RGPD et souveraineté numérique
-- **API** : Mistral AI API
+| Provider | Modèle | Type | Spécialités | API | Points forts |
+|----------|---------|------|-------------|-----|--------------|
+| 🟢 **Google Gemini** *(Défaut)* | `gemini-1.5-flash` | Multimodal | • Génération rapide<br>• Texte structuré<br>• Support français | Google Generative Language | • Équilibre vitesse/qualité<br>• Contextes professionnels<br>• Fiabilité éprouvée |
+| 🧠 **DeepSeek R1** | `deepseek/deepseek-r1:free` | Raisonnement | • Chain-of-Thought<br>• Analyse logique<br>• Missions techniques | OpenRouter (proxy) | • Réflexion étape par étape<br>• Structuration avancée<br>• Détails techniques |
+| 🇫🇷 **Mistral AI** | `mistral-small-2503` | Européen | • Contexte français<br>• Missions locales<br>• Conformité RGPD | Mistral AI API | • Souveraineté numérique<br>• Compréhension culturelle<br>• Standards européens |
 
 
 ## 📊 Format des Données
