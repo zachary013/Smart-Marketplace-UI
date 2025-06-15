@@ -38,8 +38,8 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       <Header />
 
-      <main className="container mx-auto px-4 py-12">
-        <div className="max-w-3xl mx-auto space-y-8">
+      <main className="container mx-auto px-2 sm:px-4 py-12">
+        <div className="max-w-5xl mx-auto space-y-8">
           {/* Section titre */}
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-bold text-primary">

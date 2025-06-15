@@ -1,7 +1,7 @@
 import { Mission, MissionFormData, GenerateMissionRequest, ApiResponse } from '@/types/mission';
 
 // Configuration de l'API
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://localhost:5001'; // CORRIGÉ: Port 5001 selon votre doc
 
 // Classe pour gérer les erreurs API
 class ApiError extends Error {
@@ -71,13 +71,13 @@ class MissionApiClient {
       }
     );
 
-    if (!response.success || !response.mission) {
+    if (!response.success || !response.data) {
       throw new ApiError(
         response.errorMessage || 'Erreur lors de la génération de la mission'
       );
     }
 
-    return response.mission;
+    return response.data;
   }
 
   // Sauvegarder une mission
